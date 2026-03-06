@@ -2,20 +2,26 @@
 
 #include "utils/chronoGPU.hpp"
 #include "utils/commonCUDA.hpp"
+__global__ void kernelComputeSepia(const uchar* in, uchar* out,
+                                   int width, int height)
+{
+    int tid = threadIdx.x + blockIdx.x * blockDim.x;
+    int stride = blockDim.x * gridDim.x;
 
-__global__ void kernelComputeSepia( const uchar *const dev_inPtr, uchar *const dev_outPtr, const int width, const int height ) 
-{		
-	// index de la thread 
-	int index_x = threadIdx.x + blockDim.x * blockIdx.x;
-	int index_y = threadIdx.y + blockDim.y * blockIdx.y;
+    int n = width * height;
 
+    for (int p = tid; p < n; p += stride)
+    {
+        int i = p * 3;
 
-	for(int x=0; x < width; x++){
-		for (int y = 0; y < height; y++){
-			
-		}
-	}
+        uchar r = in[i];
+        uchar g = in[i+1];
+        uchar b = in[i+2];
 
+        out[i]   = fminf(255.f, r*0.393f + g*0.769f + b*0.189f);
+        out[i+1] = fminf(255.f, r*0.349f + g*0.686f + b*0.168f);
+        out[i+2] = fminf(255.f, r*0.272f + g*0.534f + b*0.131f);
+    }
 }
 
 float sepiaGPU( const PPMBitmap &in, PPMBitmap &out ) 
@@ -44,10 +50,7 @@ float sepiaGPU( const PPMBitmap &in, PPMBitmap &out )
 	/// Configure kernel
 	dim3 dimBlock(12, 12);
 
-	dim3 dimGrid(
-		(width  + dimBlock.x - 1) / dimBlock.x,
-		(height + dimBlock.y - 1) / dimBlock.y
-	);
+	dim3 dimGrid(12, 12);
 	
 	ChronoGPU chr;
 	chr.start();
