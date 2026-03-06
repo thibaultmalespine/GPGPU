@@ -1,13 +1,19 @@
 #include "student.hpp"
 
 #include "utils/chronoGPU.hpp"
+#include "utils/commonCUDA.hpp"
 
-void kernelComputeSepia( const uchar *const dev_inPtr, uchar *const dev_outPtr, const int width, const int height ) 
+__global__ void kernelComputeSepia( const uchar *const dev_inPtr, uchar *const dev_outPtr, const int width, const int height ) 
 {		
-	int i = threadIdx.x + threadIdx.y * blockDim.x + blockIdx.x * blockDim.x * blockDim.y + blockIdx.y * gridDim.x * blockDim.x * blockDim.y;
+	// index de la thread 
+	int index_x = threadIdx.x + blockDim.x * blockIdx.x;
+	int index_y = threadIdx.y + blockDim.y * blockIdx.y;
 
-	if (i < width * height){
-		// Code du kernel
+
+	for(int x=0; x < width; x++){
+		for (int y = 0; y < height; y++){
+			
+		}
 	}
 
 }
@@ -28,15 +34,14 @@ float sepiaGPU( const PPMBitmap &in, PPMBitmap &out )
 	const int height	= in.getHeight();
 
 
-	/// TODO - Allocate memory on Device
-	cudaMalloc(&dev_inPtr, sizeof(unsigned char));
-	cudaMalloc(&dev_inPtr, sizeof(unsigned char));
+	/// Allocate memory on Device
+	HANDLE_ERROR(cudaMalloc(&dev_inPtr, sizeImg));
+	HANDLE_ERROR(cudaMalloc(&dev_outPtr,sizeImg));
 
-	/// TODO - Copy from Host to Device
-	cudaMemcpy(dev_inPtr, inPtr, sizeof(unsigned char), cudaMemcpyHostToDevice);
-	cudaMemcpy(dev_outPtr, outPtr, sizeof(unsigned char), cudaMemcpyHostToDevice);
+	/// Copy from Host to Device
+	HANDLE_ERROR(cudaMemcpy(dev_inPtr, inPtr, sizeImg, cudaMemcpyHostToDevice));
 
-	/// TODO - Configure kernel
+	/// Configure kernel
 	dim3 dimBlock(12, 12);
 
 	dim3 dimGrid(
@@ -47,14 +52,18 @@ float sepiaGPU( const PPMBitmap &in, PPMBitmap &out )
 	ChronoGPU chr;
 	chr.start();
 	
-	/// TODO - Launch kernel
+	/// Launch kernel
 	kernelComputeSepia<<<dimGrid, dimBlock>>>(dev_inPtr, dev_outPtr, width, height);
+
+	// Copy from Device to Host
+	HANDLE_ERROR(cudaMemcpy(outPtr, dev_outPtr, sizeImg, cudaMemcpyDeviceToHost));
+
 
 	chr.stop();
 
-	/// TODO - Free memory on Device
-	cudaFree(dev_inPtr);
-	cudaFree(dev_outPtr);
+	/// Free memory on Device
+	HANDLE_ERROR(cudaFree(dev_inPtr));
+	HANDLE_ERROR(cudaFree(dev_outPtr));
 
 	return chr.elapsedTime();
 }

@@ -4,7 +4,7 @@
 #include "utils/ppm.hpp"
 #include "utils/commonCUDA.hpp"
 
-void kernelComputeSepia( const uchar *const in, uchar *const out, const int width, const int height );
+__global__ void kernelComputeSepia( const uchar *const in, uchar *const out, const int width, const int height );
 
 float sepiaGPU( const PPMBitmap &in, PPMBitmap &out );
 
