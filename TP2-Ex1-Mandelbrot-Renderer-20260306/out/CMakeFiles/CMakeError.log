@@ -1,0 +1,1091 @@
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_513fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_513fe.dir/build.make CMakeFiles/cmTC_513fe.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_513fe.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_PREFERRED_STACK_BOUNDARY  -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos" -mpreferred-stack-boundary=2 -o CMakeFiles/cmTC_513fe.dir/src.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/src.c
+cc1: error: ‘-mpreferred-stack-boundary=2’ is not between 3 and 12
+gmake[1]: *** [CMakeFiles/cmTC_513fe.dir/build.make:78 : CMakeFiles/cmTC_513fe.dir/src.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_513fe/fast] Erreur 2
+
+
+Source file was:
+int x = 0; int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f86cc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f86cc.dir/build.make CMakeFiles/cmTC_f86cc.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f86cc.dir/src.c.o
+/usr/bin/cc -DHAVE_ALTIVEC_H_HDR  -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos" -maltivec -o CMakeFiles/cmTC_f86cc.dir/src.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-maltivec’
+gmake[1]: *** [CMakeFiles/cmTC_f86cc.dir/build.make:78 : CMakeFiles/cmTC_f86cc.dir/src.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_f86cc/fast] Erreur 2
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5319e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5319e.dir/build.make CMakeFiles/cmTC_5319e.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_5319e.dir/src.c.o
+/usr/bin/cc -DHAVE_ALTIVEC  -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos" -maltivec -o CMakeFiles/cmTC_5319e.dir/src.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-maltivec’
+gmake[1]: *** [CMakeFiles/cmTC_5319e.dir/build.make:78 : CMakeFiles/cmTC_5319e.dir/src.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_5319e/fast] Erreur 2
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2bbb5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2bbb5.dir/build.make CMakeFiles/cmTC_2bbb5.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_2bbb5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_2bbb5.dir/CheckIncludeFile.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libunwind.h: Aucun fichier ou dossier de ce nom
+    1 | #include <libunwind.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_2bbb5.dir/build.make:78 : CMakeFiles/cmTC_2bbb5.dir/CheckIncludeFile.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_2bbb5/fast] Erreur 2
+
+
+
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_940ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_940ae.dir/build.make CMakeFiles/cmTC_940ae.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_940ae.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_940ae.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+   14 |   return ((int*)(&strlcpy))[argc];
+      |                   ^~~~~~~
+      |                   strncpy
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_940ae.dir/build.make:78 : CMakeFiles/cmTC_940ae.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_940ae/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_39f88/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_39f88.dir/build.make CMakeFiles/cmTC_39f88.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_39f88.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_39f88.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+   14 |   return ((int*)(&strlcat))[argc];
+      |                   ^~~~~~~
+      |                   strncat
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_39f88.dir/build.make:78 : CMakeFiles/cmTC_39f88.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_39f88/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strrev exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e63f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e63f0.dir/build.make CMakeFiles/cmTC_e63f0.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e63f0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_e63f0.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_strrev’ undeclared (first use in this function)
+   14 |   return ((int*)(&_strrev))[argc];
+      |                   ^~~~~~~
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_e63f0.dir/build.make:78 : CMakeFiles/cmTC_e63f0.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_e63f0/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strrev
+  return ((int*)(&_strrev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strupr exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_862c3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_862c3.dir/build.make CMakeFiles/cmTC_862c3.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_862c3.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_862c3.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_strupr’ undeclared (first use in this function)
+   14 |   return ((int*)(&_strupr))[argc];
+      |                   ^~~~~~~
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_862c3.dir/build.make:78 : CMakeFiles/cmTC_862c3.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_862c3/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strupr
+  return ((int*)(&_strupr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strlwr exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eeee1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eeee1.dir/build.make CMakeFiles/cmTC_eeee1.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_eeee1.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_eeee1.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_strlwr’ undeclared (first use in this function)
+   14 |   return ((int*)(&_strlwr))[argc];
+      |                   ^~~~~~~
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_eeee1.dir/build.make:78 : CMakeFiles/cmTC_eeee1.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_eeee1/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strlwr
+  return ((int*)(&_strlwr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the itoa exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d8af/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d8af.dir/build.make CMakeFiles/cmTC_9d8af.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_9d8af.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_9d8af.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘itoa’ undeclared (first use in this function)
+   14 |   return ((int*)(&itoa))[argc];
+      |                   ^~~~
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_9d8af.dir/build.make:78 : CMakeFiles/cmTC_9d8af.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_9d8af/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef itoa
+  return ((int*)(&itoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ltoa exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_76ce2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76ce2.dir/build.make CMakeFiles/cmTC_76ce2.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_76ce2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_76ce2.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_ltoa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_ltoa))[argc];
+      |                   ^~~~~
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_76ce2.dir/build.make:78 : CMakeFiles/cmTC_76ce2.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_76ce2/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ltoa
+  return ((int*)(&_ltoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _uitoa exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dcf0d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dcf0d.dir/build.make CMakeFiles/cmTC_dcf0d.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_dcf0d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_dcf0d.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_uitoa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_uitoa))[argc];
+      |                   ^~~~~~
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_dcf0d.dir/build.make:78 : CMakeFiles/cmTC_dcf0d.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_dcf0d/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _uitoa
+  return ((int*)(&_uitoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ultoa exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ea14a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ea14a.dir/build.make CMakeFiles/cmTC_ea14a.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_ea14a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_ea14a.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_ultoa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_ultoa))[argc];
+      |                   ^~~~~~
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_ea14a.dir/build.make:78 : CMakeFiles/cmTC_ea14a.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_ea14a/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ultoa
+  return ((int*)(&_ultoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _i64toa exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_21503/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_21503.dir/build.make CMakeFiles/cmTC_21503.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_21503.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_21503.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_i64toa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_i64toa))[argc];
+      |                   ^~~~~~~
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_21503.dir/build.make:78 : CMakeFiles/cmTC_21503.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_21503/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _i64toa
+  return ((int*)(&_i64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ui64toa exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74788/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74788.dir/build.make CMakeFiles/cmTC_74788.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_74788.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_74788.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_ui64toa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_ui64toa))[argc];
+      |                   ^~~~~~~~
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_74788.dir/build.make:78 : CMakeFiles/cmTC_74788.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_74788/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ui64toa
+  return ((int*)(&_ui64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _stricmp exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e7969/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7969.dir/build.make CMakeFiles/cmTC_e7969.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e7969.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_e7969.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_stricmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   14 |   return ((int*)(&_stricmp))[argc];
+      |                   ^~~~~~~~
+      |                   strncmp
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_e7969.dir/build.make:78 : CMakeFiles/cmTC_e7969.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_e7969/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stricmp
+  return ((int*)(&_stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strnicmp exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0d2a8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0d2a8.dir/build.make CMakeFiles/cmTC_0d2a8.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_0d2a8.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_0d2a8.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_strnicmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   14 |   return ((int*)(&_strnicmp))[argc];
+      |                   ^~~~~~~~~
+      |                   strncmp
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_0d2a8.dir/build.make:78 : CMakeFiles/cmTC_0d2a8.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_0d2a8/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strnicmp
+  return ((int*)(&_strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsdup exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74062/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74062.dir/build.make CMakeFiles/cmTC_74062.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_74062.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_74062.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_wcsdup’ undeclared (first use in this function); did you mean ‘wcsdup’?
+   14 |   return ((int*)(&_wcsdup))[argc];
+      |                   ^~~~~~~
+      |                   wcsdup
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_74062.dir/build.make:78 : CMakeFiles/cmTC_74062.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_74062/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsdup
+  return ((int*)(&_wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27d40/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27d40.dir/build.make CMakeFiles/cmTC_27d40.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_27d40.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_27d40.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘wcslcat’ undeclared (first use in this function); did you mean ‘wcsncat’?
+   14 |   return ((int*)(&wcslcat))[argc];
+      |                   ^~~~~~~
+      |                   wcsncat
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_27d40.dir/build.make:78 : CMakeFiles/cmTC_27d40.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_27d40/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4d001/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4d001.dir/build.make CMakeFiles/cmTC_4d001.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_4d001.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_4d001.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘wcslcpy’ undeclared (first use in this function); did you mean ‘wcsncpy’?
+   14 |   return ((int*)(&wcslcpy))[argc];
+      |                   ^~~~~~~
+      |                   wcsncpy
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_4d001.dir/build.make:78 : CMakeFiles/cmTC_4d001.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_4d001/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsicmp exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b421/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b421.dir/build.make CMakeFiles/cmTC_9b421.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_9b421.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_9b421.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_wcsicmp’ undeclared (first use in this function); did you mean ‘wcsncmp’?
+   14 |   return ((int*)(&_wcsicmp))[argc];
+      |                   ^~~~~~~~
+      |                   wcsncmp
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_9b421.dir/build.make:78 : CMakeFiles/cmTC_9b421.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_9b421/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsicmp
+  return ((int*)(&_wcsicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsnicmp exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9c507/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9c507.dir/build.make CMakeFiles/cmTC_9c507.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_9c507.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_9c507.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_wcsnicmp’ undeclared (first use in this function); did you mean ‘wcsncmp’?
+   14 |   return ((int*)(&_wcsnicmp))[argc];
+      |                   ^~~~~~~~~
+      |                   wcsncmp
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_9c507.dir/build.make:78 : CMakeFiles/cmTC_9c507.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_9c507/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsnicmp
+  return ((int*)(&_wcsnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fopen64 exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_56a55/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_56a55.dir/build.make CMakeFiles/cmTC_56a55.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_56a55.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_56a55.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘fopen64’ undeclared (first use in this function); did you mean ‘fopen’?
+   14 |   return ((int*)(&fopen64))[argc];
+      |                   ^~~~~~~
+      |                   fopen
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_56a55.dir/build.make:78 : CMakeFiles/cmTC_56a55.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_56a55/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fopen64
+  return ((int*)(&fopen64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fseeko64 exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33d55/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33d55.dir/build.make CMakeFiles/cmTC_33d55.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_33d55.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_33d55.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘fseeko64’ undeclared (first use in this function); did you mean ‘fseeko’?
+   14 |   return ((int*)(&fseeko64))[argc];
+      |                   ^~~~~~~~
+      |                   fseeko
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_33d55.dir/build.make:78 : CMakeFiles/cmTC_33d55.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_33d55/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko64
+  return ((int*)(&fseeko64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0a40f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0a40f.dir/build.make CMakeFiles/cmTC_0a40f.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_0a40f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_0a40f.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:10: fatal error: sys/sysctl.h: Aucun fichier ou dossier de ce nom
+    3 | #include <sys/sysctl.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_0a40f.dir/build.make:78 : CMakeFiles/cmTC_0a40f.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_0a40f/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8f39f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f39f.dir/build.make CMakeFiles/cmTC_8f39f.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_8f39f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_8f39f.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘elf_aux_info’ undeclared (first use in this function)
+    8 |   return ((int*)(&elf_aux_info))[argc];
+      |                   ^~~~~~~~~~~~
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_8f39f.dir/build.make:78 : CMakeFiles/cmTC_8f39f.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_8f39f/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6bbe2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6bbe2.dir/build.make CMakeFiles/cmTC_6bbe2.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_6bbe2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -o CMakeFiles/cmTC_6bbe2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6bbe2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bbe2.dir/link.txt --verbose=1
+/usr/bin/cc  -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -rdynamic CMakeFiles/cmTC_6bbe2.dir/CheckFunctionExists.c.o -o cmTC_6bbe2  -liconv 
+/usr/bin/ld : ne peut pas trouver -liconv : Aucun fichier ou dossier de ce nom
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6bbe2.dir/build.make:99 : cmTC_6bbe2] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_6bbe2/fast] Erreur 2
+
+
+
+Determining if the alloca exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f63f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f63f.dir/build.make CMakeFiles/cmTC_1f63f.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_1f63f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_1f63f.dir/CheckSymbolExists.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘alloca’ undeclared (first use in this function); did you mean ‘valloc’?
+    8 |   return ((int*)(&alloca))[argc];
+      |                   ^~~~~~
+      |                   valloc
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_1f63f.dir/build.make:78 : CMakeFiles/cmTC_1f63f.dir/CheckSymbolExists.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_1f63f/fast] Erreur 2
+
+
+File /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file alsa/asoundlib.h exists failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d25e4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d25e4.dir/build.make CMakeFiles/cmTC_d25e4.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_d25e4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_d25e4.dir/CheckIncludeFile.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: alsa/asoundlib.h: Aucun fichier ou dossier de ce nom
+    1 | #include <alsa/asoundlib.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d25e4.dir/build.make:78 : CMakeFiles/cmTC_d25e4.dir/CheckIncludeFile.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_d25e4/fast] Erreur 2
+
+
+
+Determining if the include file audio/audiolib.h exists failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77a2a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77a2a.dir/build.make CMakeFiles/cmTC_77a2a.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_77a2a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_77a2a.dir/CheckIncludeFile.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: audio/audiolib.h: Aucun fichier ou dossier de ce nom
+    1 | #include <audio/audiolib.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_77a2a.dir/build.make:78 : CMakeFiles/cmTC_77a2a.dir/CheckIncludeFile.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_77a2a/fast] Erreur 2
+
+
+
+Determining if the include file sndio.h exists failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_92be6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_92be6.dir/build.make CMakeFiles/cmTC_92be6.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_92be6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_92be6.dir/CheckIncludeFile.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sndio.h: Aucun fichier ou dossier de ce nom
+    1 | #include <sndio.h>
+      |          ^~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_92be6.dir/build.make:78 : CMakeFiles/cmTC_92be6.dir/CheckIncludeFile.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_92be6/fast] Erreur 2
+
+
+
+Performing C SOURCE FILE Test HAVE_RPI failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4638c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4638c.dir/build.make CMakeFiles/cmTC_4638c.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_4638c.dir/src.c.o
+/usr/bin/cc -DHAVE_RPI  -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"   -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux/  -L/opt/vc/lib -o CMakeFiles/cmTC_4638c.dir/src.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/src.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: bcm_host.h: Aucun fichier ou dossier de ce nom
+    2 |         #include <bcm_host.h>
+      |                  ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_4638c.dir/build.make:78 : CMakeFiles/cmTC_4638c.dir/src.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_4638c/fast] Erreur 2
+
+
+Source file was:
+
+        #include <bcm_host.h>
+        #include <EGL/eglplatform.h>
+        int main(int argc, char **argv) {
+          EGL_DISPMANX_WINDOW_T window;
+          bcm_host_init();
+        }
+Performing C SOURCE FILE Test HAVE_VIVANTE_VDK failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aadd7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aadd7.dir/build.make CMakeFiles/cmTC_aadd7.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_aadd7.dir/src.c.o
+/usr/bin/cc -DHAVE_VIVANTE_VDK  -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_aadd7.dir/src.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/src.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: gc_vdk.h: Aucun fichier ou dossier de ce nom
+    2 |         #include <gc_vdk.h>
+      |                  ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_aadd7.dir/build.make:78 : CMakeFiles/cmTC_aadd7.dir/src.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_aadd7/fast] Erreur 2
+
+
+Source file was:
+
+        #include <gc_vdk.h>
+        int main(int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_VIVANTE_EGL_FB failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9c14e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9c14e.dir/build.make CMakeFiles/cmTC_9c14e.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_9c14e.dir/src.c.o
+/usr/bin/cc -DHAVE_VIVANTE_EGL_FB  -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -o CMakeFiles/cmTC_9c14e.dir/src.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/src.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/src.c:4:18: fatal error: EGL/eglvivante.h: Aucun fichier ou dossier de ce nom
+    4 |         #include <EGL/eglvivante.h>
+      |                  ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9c14e.dir/build.make:78 : CMakeFiles/cmTC_9c14e.dir/src.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_9c14e/fast] Erreur 2
+
+
+Source file was:
+
+        #define LINUX
+        #define EGL_API_FB
+        #include <EGL/eglvivante.h>
+        int main(int argc, char** argv) { return 0; }
+Determining if files pthread_np.h exist failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0f3a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0f3a.dir/build.make CMakeFiles/cmTC_e0f3a.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e0f3a.dir/HAVE_PTHREAD_NP_H.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos"  -D_REENTRANT -pthread -o CMakeFiles/cmTC_e0f3a.dir/HAVE_PTHREAD_NP_H.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c:2:10: fatal error: pthread_np.h: Aucun fichier ou dossier de ce nom
+    2 | #include <pthread_np.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e0f3a.dir/build.make:78 : CMakeFiles/cmTC_e0f3a.dir/HAVE_PTHREAD_NP_H.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_e0f3a/fast] Erreur 2
+
+
+Source:
+/* */
+#include <pthread_np.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file samplerate.h exists failed with the following output:
+Change Dir: /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77ff1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77ff1.dir/build.make CMakeFiles/cmTC_77ff1.dir/build
+gmake[1] : on entre dans le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_77ff1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/extern/SDL2/src/video/khronos" -DHAVE_LINUX_VERSION_H  -o CMakeFiles/cmTC_77ff1.dir/CheckIncludeFile.c.o -c /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: samplerate.h: Aucun fichier ou dossier de ce nom
+    1 | #include <samplerate.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_77ff1.dir/build.make:78 : CMakeFiles/cmTC_77ff1.dir/CheckIncludeFile.c.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/etudiants/malespine1/Documents/GPGPU/TP2-Ex1-Mandelbrot-Renderer-20260306/out/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_77ff1/fast] Erreur 2
+
+
+
