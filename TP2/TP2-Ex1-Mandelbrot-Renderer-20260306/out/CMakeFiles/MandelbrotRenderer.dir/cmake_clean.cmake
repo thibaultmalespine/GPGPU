@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/MandelbrotRenderer.dir/cmake_device_link.o"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/gl3w/gl3w.c.o"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/gl3w/gl3w.c.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/backends/imgui_impl_opengl3.cpp.o"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/backends/imgui_impl_opengl3.cpp.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/backends/imgui_impl_sdl.cpp.o"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/backends/imgui_impl_sdl.cpp.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/imgui.cpp.o"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/imgui.cpp.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/imgui_demo.cpp.o"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/imgui_demo.cpp.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/imgui_draw.cpp.o"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/imgui_draw.cpp.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/imgui_tables.cpp.o"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/imgui_tables.cpp.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/imgui_widgets.cpp.o"
+  "CMakeFiles/MandelbrotRenderer.dir/extern/imgui/imgui_widgets.cpp.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/src/cuda/buffer.cu.o"
+  "CMakeFiles/MandelbrotRenderer.dir/src/cuda/buffer.cu.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/src/cuda/common.cu.o"
+  "CMakeFiles/MandelbrotRenderer.dir/src/cuda/common.cu.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/src/main.cpp.o"
+  "CMakeFiles/MandelbrotRenderer.dir/src/main.cpp.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/src/mandelbrot/reference.cpp.o"
+  "CMakeFiles/MandelbrotRenderer.dir/src/mandelbrot/reference.cpp.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/src/mandelbrot/student.cu.o"
+  "CMakeFiles/MandelbrotRenderer.dir/src/mandelbrot/student.cu.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/src/renderer.cpp.o"
+  "CMakeFiles/MandelbrotRenderer.dir/src/renderer.cpp.o.d"
+  "CMakeFiles/MandelbrotRenderer.dir/src/window.cpp.o"
+  "CMakeFiles/MandelbrotRenderer.dir/src/window.cpp.o.d"
+  "bin/MandelbrotRenderer"
+  "bin/MandelbrotRenderer.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CUDA CXX)
+  include(CMakeFiles/MandelbrotRenderer.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
