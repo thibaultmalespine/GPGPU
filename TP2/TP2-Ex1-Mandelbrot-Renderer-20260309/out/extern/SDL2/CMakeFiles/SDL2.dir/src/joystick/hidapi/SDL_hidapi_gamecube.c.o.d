@@ -1,15 +1,15 @@
 extern/SDL2/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o: \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/SDL_hidapi_gamecube.c \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/SDL_hidapi_gamecube.c \
  /usr/include/stdc-predef.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../SDL_internal.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../dynapi/SDL_dynapi.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../dynapi/SDL_dynapi_overrides.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include-config-/SDL_config.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_platform.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/begin_code.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/close_code.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_assert.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_stdinc.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../SDL_internal.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../dynapi/SDL_dynapi.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../dynapi/SDL_dynapi_overrides.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include-config-/SDL_config.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_platform.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/begin_code.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/close_code.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_assert.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_stdinc.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -25,7 +25,7 @@ extern/SDL2/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
@@ -44,7 +44,7 @@ extern/SDL2/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -65,9 +65,8 @@ extern/SDL2/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/inttypes.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/ctype.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/ctype.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -77,44 +76,44 @@ extern/SDL2/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_log.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_events.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_error.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_video.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_pixels.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_endian.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_rect.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_rwops.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_surface.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_blendmode.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_keyboard.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_keycode.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_scancode.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_mouse.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_joystick.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_guid.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_gamecontroller.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_sensor.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_quit.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_gesture.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_touch.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_timer.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_haptic.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_joystick.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_gamecontroller.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../SDL_hints_c.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../.././SDL_internal.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../SDL_sysjoystick.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../SDL_internal.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../SDL_joystick_c.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/SDL_hidapijoystick_c.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_atomic.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_platform.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_hints.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_mutex.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_hidapi.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../usb_ids.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/SDL_hidapi_rumble.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../hidapi/SDL_hidapi_c.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../hidapi/../SDL_internal.h
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_log.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_events.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_error.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_video.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_pixels.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_endian.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_rect.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_rwops.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_surface.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_blendmode.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_keyboard.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_keycode.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_scancode.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_mouse.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_joystick.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_guid.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_gamecontroller.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_sensor.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_quit.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_gesture.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_touch.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_timer.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_haptic.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_joystick.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_gamecontroller.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../SDL_hints_c.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../.././SDL_internal.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../SDL_sysjoystick.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../SDL_internal.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../SDL_joystick_c.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_atomic.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_platform.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_hints.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_mutex.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_hidapi.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../usb_ids.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/SDL_hidapi_rumble.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../hidapi/SDL_hidapi_c.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/joystick/hidapi/../../hidapi/../SDL_internal.h

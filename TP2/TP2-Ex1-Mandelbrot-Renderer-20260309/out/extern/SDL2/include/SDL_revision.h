@@ -1,4 +1,4 @@
-#define SDL_REVISION "https://github.com/thibaultmalespine/GPGPU.git@f1cc0a5325d8461979374add0487d5478c20d6df"
+#define SDL_REVISION "https://github.com/thibaultmalespine/GPGPU@ac22ab3d4df6b567e274cb9a2644ae7c206dc963"
 #define SDL_REVISION_NUMBER 0
 
 #ifndef SDL_REVISION

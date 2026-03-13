@@ -41,7 +41,7 @@ namespace mdbr
 				const DeviceComplex c = begin
 								  + DeviceComplex( x / configuration.zoom * span.real() / ( configuration.width + 1.f ),
 											 y / configuration.zoom * span.imag() / ( configuration.height + 1.f ) );
-				const float res = mandelbrotGPU( c, configuration.maxIteration );
+				const float res = MandelbrotGPU( c, configuration.maxIteration );
 
 				const int idPixel = x + y * configuration.width;
 

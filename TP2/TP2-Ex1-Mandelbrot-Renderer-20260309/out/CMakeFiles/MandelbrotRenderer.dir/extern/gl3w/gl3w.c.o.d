@@ -1,10 +1,10 @@
 CMakeFiles/MandelbrotRenderer.dir/extern/gl3w/gl3w.c.o: \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/gl3w/gl3w.c \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/gl3w/gl3w.c \
  /usr/include/stdc-predef.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/gl3w/GL/gl3w.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/gl3w/GL/glcorearb.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/gl3w/KHR/khrplatform.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/gl3w/GL/gl3w.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/gl3w/GL/glcorearb.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/gl3w/KHR/khrplatform.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -18,9 +18,8 @@ CMakeFiles/MandelbrotRenderer.dir/extern/gl3w/gl3w.c.o: \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/stdlib.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \

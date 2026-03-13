@@ -67,13 +67,14 @@ namespace mdbr
 		if ( gpuCompute )
 		{
 			// Remplacer la ligne suivant par l'appel au kernel correspondant � la g�n�ration de l'image.
+
 			dim3 block(16, 16);
 			dim3 grid(
 				(configuration.width  + block.x - 1) / block.x,
 				(configuration.height + block.y - 1) / block.y
 			);
-			renderMandelbrotGPU<<<grid,block>>>(std::move( configuration ), m_hostData.data());
 			cudaMemset( data, 0, sizeof( uchar4 ) * m_width * m_height );
+			renderMandelbrotGPU<<<grid,block>>>(std::move( configuration ), data);
 		}
 		else
 		{

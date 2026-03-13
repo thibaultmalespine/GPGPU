@@ -1,15 +1,15 @@
 extern/SDL2/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o: \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/SDL_syspower.c \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/SDL_syspower.c \
  /usr/include/stdc-predef.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../../SDL_internal.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../../dynapi/SDL_dynapi.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../../dynapi/SDL_dynapi_overrides.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include-config-/SDL_config.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_platform.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/begin_code.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/close_code.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_assert.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_stdinc.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../../SDL_internal.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../../dynapi/SDL_dynapi.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../../dynapi/SDL_dynapi_overrides.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include-config-/SDL_config.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_platform.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/begin_code.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/close_code.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_assert.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_stdinc.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -25,7 +25,7 @@ extern/SDL2/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
@@ -44,7 +44,7 @@ extern/SDL2/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -65,9 +65,8 @@ extern/SDL2/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/inttypes.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/ctype.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/ctype.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -77,8 +76,8 @@ extern/SDL2/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_log.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_log.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -111,8 +110,27 @@ extern/SDL2/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/linux/falloc.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_power.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../SDL_syspower.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../../SDL_internal.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../../core/linux/SDL_dbus.h \
- /home/thibault/Documents/Etude/Master\ Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../../core/linux/../../SDL_internal.h
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_power.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../SDL_syspower.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../../SDL_internal.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../../core/linux/SDL_dbus.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2/src/power/linux/../../core/linux/../../SDL_internal.h \
+ /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/include/SDL_stdinc.h \
+ /usr/include/dbus-1.0/dbus/dbus.h \
+ /usr/lib/x86_64-linux-gnu/dbus-1.0/include/dbus/dbus-arch-deps.h \
+ /usr/include/dbus-1.0/dbus/dbus-macros.h \
+ /usr/include/dbus-1.0/dbus/dbus-address.h \
+ /usr/include/dbus-1.0/dbus/dbus-types.h \
+ /usr/include/dbus-1.0/dbus/dbus-errors.h \
+ /usr/include/dbus-1.0/dbus/dbus-protocol.h \
+ /usr/include/dbus-1.0/dbus/dbus-bus.h \
+ /usr/include/dbus-1.0/dbus/dbus-connection.h \
+ /usr/include/dbus-1.0/dbus/dbus-memory.h \
+ /usr/include/dbus-1.0/dbus/dbus-message.h \
+ /usr/include/dbus-1.0/dbus/dbus-shared.h \
+ /usr/include/dbus-1.0/dbus/dbus-misc.h \
+ /usr/include/dbus-1.0/dbus/dbus-pending-call.h \
+ /usr/include/dbus-1.0/dbus/dbus-server.h \
+ /usr/include/dbus-1.0/dbus/dbus-signature.h \
+ /usr/include/dbus-1.0/dbus/dbus-syntax.h \
+ /usr/include/dbus-1.0/dbus/dbus-threads.h

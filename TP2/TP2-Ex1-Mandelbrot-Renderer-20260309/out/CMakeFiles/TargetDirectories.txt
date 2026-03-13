@@ -1,13 +1,13 @@
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/CMakeFiles/MandelbrotRenderer.dir
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/CMakeFiles/edit_cache.dir
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/CMakeFiles/rebuild_cache.dir
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/CMakeFiles/edit_cache.dir
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/CMakeFiles/rebuild_cache.dir
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/sdl_headers_copy.dir
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/SDL2main.dir
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/SDL2.dir
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/SDL2-static.dir
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/SDL2_test.dir
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/uninstall.dir
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/edit_cache.dir
-/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/rebuild_cache.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/CMakeFiles/MandelbrotRenderer.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/CMakeFiles/edit_cache.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/CMakeFiles/rebuild_cache.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/CMakeFiles/edit_cache.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/CMakeFiles/rebuild_cache.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/sdl_headers_copy.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/SDL2main.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/SDL2.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/SDL2-static.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/SDL2_test.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/uninstall.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/edit_cache.dir
+/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/extern/SDL2/CMakeFiles/rebuild_cache.dir

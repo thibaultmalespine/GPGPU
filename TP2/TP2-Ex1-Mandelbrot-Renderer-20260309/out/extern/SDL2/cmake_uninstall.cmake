@@ -1,8 +1,8 @@
-if (NOT EXISTS "/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/install_manifest.txt\"")
-endif(NOT EXISTS "/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/install_manifest.txt")
+if (NOT EXISTS "/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/install_manifest.txt\"")
+endif(NOT EXISTS "/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/install_manifest.txt")
 
-file(READ "/home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/install_manifest.txt" files)
+file(READ "/home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/out/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach (file ${files})
     message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

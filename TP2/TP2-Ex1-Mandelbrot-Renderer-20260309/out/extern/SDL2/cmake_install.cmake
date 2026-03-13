@@ -1,4 +1,4 @@
-# Install script for directory: /home/thibault/Documents/Etude/Master Informatique/S8/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2
+# Install script for directory: /home/etudiants/malespine1/Documents/GPGPU/TP2/TP2-Ex1-Mandelbrot-Renderer-20260309/extern/SDL2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
