@@ -49,7 +49,6 @@ float sepiaGPU( const PPMBitmap &in, PPMBitmap &out )
 
 	/// Configure kernel
 	dim3 dimBlock(12, 12);
-
 	dim3 dimGrid(12, 12);
 	
 	ChronoGPU chr;

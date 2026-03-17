@@ -3,68 +3,84 @@
 #include "utils/chronoGPU.hpp"
 #include "utils/commonCUDA.hpp"
 
-
-__global__ void kernelComputeGpu( )
+__device__ float clampfGPU(float n, float lower, float upper)
 {
-    // TODO
+    return fmaxf(lower, fminf(n, upper));
 }
 
 
-float convGPU( PPMBitmap &out, const PPMBitmap &in, const float *const kernelConv, int matWidth, int matHeight)
+__global__ void kernelComputeGPU(
+    uchar* in, uchar* out,
+    int width, int height,
+    float* kernel, int kW, int kH)
 {
-    int imgWidth = in.getWidth();
-    int imgHeight = in.getHeight();
+    int x = blockIdx.x * blockDim.x + threadIdx.x;
+    int y = blockIdx.y * blockDim.y + threadIdx.y;
+
+    if (x >= width || y >= height) return;
+
+    float3 sum = {0.f, 0.f, 0.f};
+
+    for (int i = 0; i < kW; i++){
+        for (int j = 0; j < kH; j++){
+            int dX = x + i - kW / 2;
+            int dY = y + j - kH / 2;
+
+            dX = max(0, min(dX, width - 1));
+            dY = max(0, min(dY, height - 1));
+
+            int matIndex = j + i * kW;
+            int idx = (dX + dY * width) * 3;
+
+            sum.x += kernel[matIndex] * in[idx + 0];
+            sum.y += kernel[matIndex] * in[idx + 1];
+            sum.z += kernel[matIndex] * in[idx + 2];
+        }
+    }
+
+    int outIdx = (x + y * width) * 3;
+
+    out[outIdx + 0] = (uchar)clampfGPU(sum.x, 0.f, 255.f);
+    out[outIdx + 1] = (uchar)clampfGPU(sum.y, 0.f, 255.f);
+    out[outIdx + 2] = (uchar)clampfGPU(sum.z, 0.f, 255.f);
+}
+
+float convGPU( PPMBitmap &out, const PPMBitmap &in, const float* const kernelConv, int matWidth, int matHeight)
+{  
 
     ChronoGPU chr;
 	chr.start();
 
+    size_t imgSize = in.getWidth() * in.getHeight() * 3;
+
+    uchar* pixelIn;
+    uchar* pixelOut;
+    float* d_kernel; 
+
     // Allocation de la mémoire sur le GPU
+    cudaMalloc(&pixelIn, imgSize); 
+    cudaMalloc(&pixelOut, imgSize); 
+    cudaMalloc(&d_kernel, matWidth * matHeight * sizeof(float));
 
     // Copie des données sur le GPU
+    cudaMemcpy(pixelIn, in.getPtr(), imgSize, cudaMemcpyHostToDevice);
+    cudaMemcpy(pixelOut, out.getPtr(), imgSize, cudaMemcpyHostToDevice);
+    cudaMemcpy(d_kernel, kernelConv, matWidth * matHeight * sizeof(float), cudaMemcpyHostToDevice);
 
     // Lancement du kernel
+    dim3 block(16,16);
+    dim3 grid((in.getWidth() +15)/16, ( in.getHeight()+15)/16);
+    kernelComputeGPU<<<grid, block>>>(pixelIn, pixelOut, in.getWidth(), in.getHeight(), d_kernel, matWidth, matHeight);
 
     // Récupération des données sur le CPU
+    cudaMemcpy(out.getPtr(), pixelOut, imgSize, cudaMemcpyDeviceToHost);
 
     // Libération de la mémoire sur le GPU
+    cudaFree(pixelIn);
+    cudaFree(pixelOut);
+    cudaFree(d_kernel);
 
-    for (int x = 0; x < imgWidth; ++x){
-        for (int y=0;y < imgHeight; ++y){
-            RGBcol pixelOut;
-            float3 sum = {0.f};
-            for (int i=0; i < matWidth; i++){
-                for (int j=0; j < matHeight; j++){
-					int dX = x + i - matWidth / 2;
-					int dY = y + j - matHeight / 2;
 
-					if ( dX < 0 ) 
-						dX = 0;
-
-					if ( dX >= imgWidth ) 
-						dX = imgWidth - 1;
-
-					if ( dY < 0 ) 
-						dY = 0;
-
-					if ( dY >= imgHeight ) 
-						dY = imgHeight - 1;
-
-					int matIndex = j + i*matWidth;
-
-                    const RGBcol &pixelIn = in.getPixel( dX, dY );
-                    sum.x += (float) (kernelConv[matIndex] * pixelIn._r);
-                    sum.y += (float) (kernelConv[matIndex] * pixelIn._g);
-                    sum.z += (float) (kernelConv[matIndex] * pixelIn._b);
-                }
-            }
-
-            pixelOut._r = (unsigned char) clampf(sum.x,0.f,255.f);
-            pixelOut._g = (unsigned char) clampf(sum.y,0.f,255.f);
-            pixelOut._b = (unsigned char) clampf(sum.z,0.f,255.f);
-
-            out.setPixel(x,y,pixelOut);
-        }
-    }
     chr.stop();
 
     return chr.elapsedTime();

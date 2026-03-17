@@ -4,6 +4,7 @@
 #include <cstring>
 
 #include "reference.hpp"
+#include "student.hpp"
 
 void printUsage() 
 {
@@ -84,6 +85,7 @@ int main(int argc, char **argv)
 
     // Create output image
     PPMBitmap outCPU(width, height);
+    PPMBitmap outGPU(width, height);
 
     // =================================================================
     // CPU sequential
@@ -107,7 +109,7 @@ int main(int argc, char **argv)
 	std::cout << "         Parallel version on GPU            "	<< std::endl;
 	std::cout << "============================================"	<< std::endl;
 
-	const float timeGPU = convGPU( );
+	const float timeGPU = convGPU(outGPU, input, matrice, matrice_width, matrice_height);
 
 	std::string gpuName = baseSaveName + "_" + matrixName + "_" + std::to_string(matrice_width) + "x" + std::to_string(matrice_height) +"_gpu"+ ".ppm";
 	outGPU.saveTo(gpuName.c_str());
